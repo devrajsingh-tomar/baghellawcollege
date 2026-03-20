@@ -35,7 +35,7 @@ export default function Navbar() {
     if (isOpen) {
       setIsOpen(false);
     }
-  }, [pathname, isOpen]);
+  }, [pathname]);
 
   return (
     <nav
